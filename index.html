@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.82.0">
+  <title>Weather App</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <!-- Custom styles for this template -->
+  <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="top text-white bg-info bg-gradient">
+  <div class="middle" style="margin:auto">
+    <div>
+      <img class="cloud" src="images/cloud.png" alt="cloud" width="250" height="140" />
+    </div>
+    <main class="px-3">
+      <h1 class="badge bg-primary">Weather App.</h1>
+      <form class="form-inline" action="/" method="post">
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="cityInput" class="sr-only">City Name:</label>
+          <input id="cityInput" class="form-control" type="text" name="city" placeholder="City Name" />
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+      </form>
+    </main>
+  </div>
+
+
+
+</body>
+
+</html>
